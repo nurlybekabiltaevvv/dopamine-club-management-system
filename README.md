@@ -1,5 +1,35 @@
+What is this template for?
+This is a production-ready starter for building fullstack web applications with Next.js and PostgreSQL.
+It provides a solid foundation so you don't have to wire everything up manually.
 
-# 🚀 Next.js + PostgreSQL + Drizzle ORM Template
+Use it when you need:
+
+A modern web app with server-side rendering
+A relational database (PostgreSQL)
+Type-safe database queries (Drizzle ORM)
+Clean code structure that scales
+
+Key benefits:
+Save time — skip boilerplate setup and jump straight to features
+Best practices built-in — TypeScript, ESLint, environment variables, project structure
+Database-ready — Drizzle ORM with migrations, typed schema, easy to extend
+Styled out of the box — TailwindCSS v4 for rapid UI development
+Deploy instantly — works with Vercel, Railway, Render, Docker
+Type safety — end‑to‑end types from database to frontend
+Minimal dependencies — only what you need, nothing more
+
+Typical use cases:
+
+SaaS applications
+Admin panels / dashboards
+API backends with server‑rendered frontend
+Internal tools
+Portfolio projects
+Quick prototyping
+
+
+
+# Next.js + PostgreSQL + Drizzle ORM Template
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
@@ -12,19 +42,19 @@ Production-ready fullstack template built with modern technologies and best prac
 
 
 
-## 🧱 Tech Stack
+## Tech Stack
 
-- ⚡ Next.js 16 (App Router)
-- ⚛️ React 19
-- 🔐 TypeScript
-- 🗄 PostgreSQL
-- 🧩 Drizzle ORM
-- 🎨 TailwindCSS v4
-- 🧹 ESLint
+-  Next.js 16 (App Router)
+-  React 19
+-  TypeScript
+-  PostgreSQL
+-  Drizzle ORM
+-  TailwindCSS v4
+-  ESLint
 
 
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 Client (React / Next.js App Router)  
 ↓  
@@ -36,7 +66,7 @@ PostgreSQL
 
 
 
-## 🗂 Project Structure
+## Project Structure
 
 
 .
@@ -54,7 +84,7 @@ PostgreSQL
 
 
 
-## 🧬 Example ER Diagram
+## Example ER Diagram
 
 ```mermaid
 erDiagram
@@ -78,7 +108,7 @@ erDiagram
 
 
 
-# 🚀 Getting Started
+# Getting Started
 
 ## 1️⃣ Clone repository
 
@@ -201,7 +231,7 @@ npm run typecheck
 
 
 
-# 🐳 Docker Setup (Optional)
+# Docker Setup (Optional)
 
 Dockerfile:
 
@@ -256,7 +286,7 @@ docker-compose up --build
 
 
 
-# 🚀 Deployment
+# Deployment
 
 Recommended: Vercel
 
